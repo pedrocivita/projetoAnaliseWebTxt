@@ -12,8 +12,7 @@ A Python project that analyzes S&P 500 stocks by combining real-time stock data 
 
 ## Project Structure
 
-- `projeto.ipynb`: Main analysis notebook with stock data and news scraping functionality
-- `stockAnalyser.ipynb`: Additional analysis notebook for stock data
+- `stockAnalyser.ipynb`: Main analysis notebook for stock data and news scraping
 - `LICENSE`: Project license file
 - `.gitignore`: Git ignore configuration
 
@@ -29,7 +28,7 @@ The project uses the following Python packages:
 
 ## Usage
 
-1. Open either `projeto.ipynb` or `stockAnalyser.ipynb` in Jupyter Notebook
+1. Open `stockAnalyser.ipynb` in Jupyter Notebook
 2. Run the cells to analyze any S&P 500 stock by providing its ticker symbol
 3. The analysis will provide:
    - Current stock price
@@ -48,4 +47,4 @@ result = analyze_stock("AAPL", n_news=5)
 
 Felipe Trintim
 Gabriel Mine
-Pedro Civita 
+Pedro Civita
