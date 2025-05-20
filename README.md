@@ -46,5 +46,4 @@ result = analyze_stock("AAPL", n_news=5)
 ## Contributitors
 
 Felipe Trintim
-Gabriel Mine
 Pedro Civita
