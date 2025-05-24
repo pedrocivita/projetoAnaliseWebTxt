@@ -12,7 +12,13 @@ A Python project that analyzes S&P 500 stocks by combining real-time stock data 
 
 ## Project Structure
 
-- `stockAnalyser.ipynb`: Main analysis notebook for stock data and news scraping
+- `stockAnalyser.ipynb`: Jupyter Notebook containing:
+   1. Imports and configuration
+   2. Data-scraping functions (`fetch_page`, `get_company_name`, `get_current_price`, `get_latest_news`)
+   3. Main pipeline function (`analyze_stock`)
+   4. Azure OpenAI client setup
+   5. Sentiment function (`sentimento_geral_noticias`)
+   6. Execution loop for multiple tickers
 - `LICENSE`: Project license file
 - `.gitignore`: Git ignore configuration
 
@@ -25,7 +31,7 @@ The project uses the following Python packages:
 - pandas
 - matplotlib
 - re (Regular Expressions)
-
+- openai
 ## Usage
 
 1. Open `stockAnalyser.ipynb` in Jupyter Notebook
@@ -46,4 +52,5 @@ result = analyze_stock("AAPL", n_news=5)
 ## Contributitors
 
 Felipe Trintim
+Gabriel Mine
 Pedro Civita
